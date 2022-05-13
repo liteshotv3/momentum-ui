@@ -36,14 +36,17 @@ npm i -S @momentum-ui/react
 yarn add @momentum-ui/react
 ```
 
-### Step 2. Import Momentum UI React components in your app
+### Step 2. Import Momentum UI React components and style sheet into your app
 
 Use ES6 import statement to import the component that you want to use:
 
 ```jsx
+// import the style sheet
+import "@momentum-ui/core/css/momentum-ui.min.css"
+
 import { Button } from '@momentum-ui/react';
 // or
-import Button from from '@momentum-ui/react/button';
+import Button from '@momentum-ui/react/lib/Button';
 ...
 ...
 
